@@ -1,2 +1,2 @@
 # android-basics-compose-progress
-in /code - examples of little programm during the curse as an experience 
+each #Unit contains just a little examples of programmes that is writes during the curse as an experience for the student

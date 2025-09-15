@@ -1,1 +1,61 @@
+/**
+ * Unit 1:
+ */
 
+fun main() {
+    unit1()
+    println(birthdayGreeting("Traveler"))
+    println(music(12))
+    functionexample()
+    email()
+}
+fun unit1() {
+    //val two: Int = 2
+    //val word: String = "Kotlin"
+    val two = 2
+    val word = "Kotlin"
+    println("You can code in $two different ways with $word")
+    val savedmusiccount = 905
+    val numberofplaylist = 15
+    val eachplaylistcount = 7
+    println("You have \"${savedmusiccount + (numberofplaylist * eachplaylistcount)}\" total count of music.")
+}
+fun birthdayGreeting(name: String): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+fun music(playlist: Int): Int {
+    val savedmusic = 905
+    val totalmusic = savedmusic*playlist
+    return totalmusic
+}
+fun functionexample() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
+
+    val result = add(firstNumber, secondNumber)
+    val anotherResult = add(firstNumber, thirdNumber)
+
+    println("$firstNumber + $secondNumber = $result")
+    println("$firstNumber + $thirdNumber = $anotherResult")
+}
+fun add(num1: Int, num2: Int): Int {
+    return num1 + num2
+}
+fun email() {
+    val operatingSystem = "Chrome OS"
+    val emailId = "sample@gmail.com"
+
+    println(displayAlertMessage(operatingSystem, emailId))
+}
+fun displayAlertMessage(system: String, mail: String): String {
+    return "There's a new sign-in request on $system for your Google Account $mail"
+}
+/**
+ * fun name (parameters): return type {
+ * body
+ * return statement
+ * }
+ */

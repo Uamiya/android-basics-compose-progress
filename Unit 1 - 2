@@ -8,6 +8,7 @@ fun main() {
     println(music(12))
     functionexample()
     f()
+    comparetwonumbersandmoveduplicatecodeintoafunction()
 }
 fun unit1() {
     //val two: Int = 2
@@ -71,6 +72,27 @@ fun f() {
 
     println(displayAlertMessage(thirdUserOperatingSystem, thirdUserEmailId))
     println()
+}
+fun comparetwonumbersandmoveduplicatecodeintoafunction() {
+    val timespentToday = 300
+    val timespentYesterday= 250
+
+    println(timespentonphone(timespentYesterday, timespentToday))
+    weather("Ancara", 27, 31, 82)
+    weather("Tokyo", 32, 36, 10)
+    weather("Cape Town", 59, 64, 2)
+    weather("Guatemala City", 50, 55, 7)
+
+}
+fun timespentonphone(yesterday: Int, today: Int): Boolean {
+    return today > yesterday
+}
+
+fun weather(city: String, lowttemperature: Int, hightemparature: Int, chanceofrain: Int)  {
+    println("City: $city")
+    println("Low temperature: $lowttemperature")
+    println("High temperature: $hightemparature,")
+    println("Chance of rain: $chanceofrain%")
 }
 /**
  * fun name (parameters): return type {

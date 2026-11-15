@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="prev_button">Previous</string>
+    <string name="next_button">Next</string>
+    <string name="art1_title">MyExBestFriend</string>
+    <string name="art_artist">Yoldosheva U.U.</string>
+    <string name="art1_year">13.07.2020</string>
+    <string name="art2_title">Billie Eilish</string>
+    <string name="art2_year">22.06.2020</string>
+    <string name="art3_title">Colorful girl</string>
+    <string name="art3_year">01.07.2020</string>
+</resources>

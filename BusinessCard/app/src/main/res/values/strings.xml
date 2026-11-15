@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="my_name">Hope</string>
+    <string name="my_title">Android Developer</string>
+    <string name="my_phone">+7 917 616 06 44</string>
+    <string name="my_email">umidajuldaseva4584@gmail.com</string>
+    <string name="icon_description">Wanderer</string>
+</resources>
